@@ -9,8 +9,7 @@ public class OpenAIAgentService
     private readonly HttpClient _httpClient;
     private readonly string _endpoint = "https://bh-in-openai-aireimaginators.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview";
     private readonly string _deploymentId = "gpt-4o"; // e.g., gpt-4-agent
-    //private readonly string _apiKey = "2rumxyaXLunaJulbR3SQ385QtFzTevRAfkRrKSpV3Ep9bnLZZ0pAJQQJ99BFAC77bzfXJ3w3AAAAACOG4xbO";
-     private readonly string _apiKey ="2b4f4918e0ab451983e4a261c64ff671"; // Replace with your actual API key
+     private readonly string _apiKey ="dummy"; // Replace with your actual API key
     private readonly string _apiVersion = "2025-01-01-preview";
 
     public OpenAIAgentService(HttpClient httpClient)
